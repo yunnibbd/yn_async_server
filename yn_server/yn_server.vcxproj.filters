@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{40ba636c-5140-4893-bc80-992e769883e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="http">
+      <UniqueIdentifier>{3837459a-b3a0-4db1-9488-3a0b5cb94be9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{104b878b-df1e-4ca9-bc58-4406d8946b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>{76ef690c-36a1-400b-a84d-1084444100b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proc">
+      <UniqueIdentifier>{a7c7cb76-9cfe-4b27-8580-bec3a25d2dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{61478de3-a173-412e-a438-5e0e99242d89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="http\http_parser.c">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\cbuffer.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\cconfig.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\cmemory_pool.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\csemaphore.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\cthread.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\cthread_pool.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\ctimer.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\json.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\json_extends.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\cabstract_client.cpp">
+      <Filter>proc</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\cabstract_master_server.cpp">
+      <Filter>proc</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\cabstract_server.cpp">
+      <Filter>proc</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\cabstract_worker_client.cpp">
+      <Filter>proc</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\cabstract_worker_server.cpp">
+      <Filter>proc</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\cclient.cpp">
+      <Filter>proc</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\cepoll.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\ciocp.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\cmaster_server_impl_epoll.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\cmaster_server_impl_iocp.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\cworker_client_impl_epoll.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\cworker_client_impl_iocp.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\cworker_server_impl_epoll.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\cworker_server_impl_iocp.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="yn_server.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\crypt.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\ctools.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\cjson.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="http\http_parser.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\cbuffer.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\cconfig.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\clog.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\cmemory_pool.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\cobject_pool.hpp">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\csemaphore.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\cthread.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\cthread_pool.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\ctimer.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\json.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\json_extends.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\cabstract_client.h">
+      <Filter>proc</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\cabstract_master_server.h">
+      <Filter>proc</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\cabstract_server.h">
+      <Filter>proc</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\cabstract_worker_client.h">
+      <Filter>proc</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\cabstract_worker_server.h">
+      <Filter>proc</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\cclient.h">
+      <Filter>proc</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\cmaster_server.h">
+      <Filter>proc</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\cworker_client.h">
+      <Filter>proc</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\cworker_server.h">
+      <Filter>proc</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\cepoll.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\ciocp.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\cmaster_server_impl_epoll.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\cmaster_server_impl_iocp.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\cworker_client_impl_epoll.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\cworker_client_impl_iocp.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\cworker_server_impl_epoll.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\cworker_server_impl_iocp.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="cabstract_task.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cbase_msg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="error_code.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="export_api.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\crypt.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\ctools.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\cjson.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="makefile">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
